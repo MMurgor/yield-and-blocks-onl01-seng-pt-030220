@@ -18,7 +18,7 @@ if block_given?
 	end
 	array
 else
-  
+  "Hey! No block was given!"
 end
 end
 
