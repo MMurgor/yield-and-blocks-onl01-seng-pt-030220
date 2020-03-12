@@ -7,7 +7,7 @@ if block_given?
 	end
 	array
 else
-print "Hey! No block was given!"
+print out "Hey! No block was given!"
 end
 
 end
