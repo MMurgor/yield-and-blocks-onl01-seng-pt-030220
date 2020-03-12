@@ -7,7 +7,7 @@ if block_given?
 	end
 	array
 else
-block_given "Hey! No block was given!"
+block_given? "Hey! No block was given!"
 end
 
 end
