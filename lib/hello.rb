@@ -18,7 +18,7 @@ if block_given?
 	end
 	array
 else
-  array
+  (&block_given)
 end
 end
 
