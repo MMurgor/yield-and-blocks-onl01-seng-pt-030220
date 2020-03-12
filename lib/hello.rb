@@ -18,7 +18,7 @@ if block_given?
 	end
 	array
 else
-  array
+  block.call at(i)
 end
 end
 
