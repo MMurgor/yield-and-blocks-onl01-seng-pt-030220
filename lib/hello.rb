@@ -2,12 +2,12 @@ def hello_t (array)
 if block_given?
 	i = 0
   	while i < array.length 
-  		yield (array[i]) &block
+  		yield (array[i]) 
  		 i += 1
 	end
 	array
 else
- "Hey! No block was given!"
+ "Hey! No block was given!" &block
 end
 
 end
