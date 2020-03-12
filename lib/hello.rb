@@ -7,7 +7,7 @@ if block_given?
 	end
 	array
 else
-(block) "Hey! No block was given!"
+block_given "Hey! No block was given!"
 end
 
 end
